@@ -1,0 +1,9 @@
+# Node.js dependencies
+nodejs-app/node_modules/
+nodejs-app/package-lock.json
+
+# Go dependencies
+
+# IDE
+.vscode/
+.idea/

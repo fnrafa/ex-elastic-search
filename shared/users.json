@@ -1,0 +1,77 @@
+[
+  {
+    "name": "Alice",
+    "age": 25,
+    "hobbies": ["reading", "hiking"]
+  },
+  {
+    "name": "Bob",
+    "age": 30,
+    "hobbies": ["movies", "hiking"]
+  },
+  {
+    "name": "Charlie",
+    "age": 28,
+    "hobbies": ["reading", "gaming"]
+  },
+  {
+    "name": "Eve",
+    "age": 22,
+    "hobbies": ["music", "traveling"]
+  },
+  {
+    "name": "Dave",
+    "age": 35,
+    "hobbies": ["traveling", "hiking"]
+  },
+  {
+    "name": "Fiona",
+    "age": 27,
+    "hobbies": ["photography", "cooking"]
+  },
+  {
+    "name": "George",
+    "age": 29,
+    "hobbies": ["gaming", "hiking"]
+  },
+  {
+    "name": "Hannah",
+    "age": 24,
+    "hobbies": ["music", "cooking"]
+  },
+  {
+    "name": "Ian",
+    "age": 31,
+    "hobbies": ["traveling", "photography"]
+  },
+  {
+    "name": "Jasmine",
+    "age": 26,
+    "hobbies": ["reading", "movies"]
+  },
+  {
+    "name": "Kevin",
+    "age": 33,
+    "hobbies": ["hiking", "cycling"]
+  },
+  {
+    "name": "Lily",
+    "age": 29,
+    "hobbies": ["gaming", "cycling"]
+  },
+  {
+    "name": "Michael",
+    "age": 21,
+    "hobbies": ["reading", "music"]
+  },
+  {
+    "name": "Nina",
+    "age": 34,
+    "hobbies": ["traveling", "photography"]
+  },
+  {
+    "name": "Oscar",
+    "age": 32,
+    "hobbies": ["cooking", "movies"]
+  }
+]

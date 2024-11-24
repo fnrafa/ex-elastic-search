@@ -1,0 +1,17 @@
+[
+  { "user": "Alice", "friends": ["Bob", "Charlie"] },
+  { "user": "Bob", "friends": ["Alice", "Eve"] },
+  { "user": "Charlie", "friends": ["Alice", "George"] },
+  { "user": "Eve", "friends": ["Bob", "Hannah"] },
+  { "user": "Dave", "friends": ["Fiona", "Ian"] },
+  { "user": "Fiona", "friends": ["Dave", "Hannah"] },
+  { "user": "George", "friends": ["Charlie", "Kevin"] },
+  { "user": "Hannah", "friends": ["Eve", "Fiona"] },
+  { "user": "Ian", "friends": ["Dave", "Nina"] },
+  { "user": "Jasmine", "friends": ["Michael", "Oscar"] },
+  { "user": "Kevin", "friends": ["George", "Lily"] },
+  { "user": "Lily", "friends": ["Kevin", "Oscar"] },
+  { "user": "Michael", "friends": ["Jasmine", "Nina"] },
+  { "user": "Nina", "friends": ["Ian", "Michael"] },
+  { "user": "Oscar", "friends": ["Jasmine", "Lily"] }
+]
