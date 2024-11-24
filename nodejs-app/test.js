@@ -1,4 +1,5 @@
-const client = require('./config');
+const client = require("./config/elastic");
+
 
 const usersIndex = 'users';
 const friendshipsIndex = 'friendships';

@@ -1,13 +1,13 @@
-const client = require('./config');
-const users = require('../shared/users.json');
-const friendships = require('../shared/friendships.json');
+const users = require('../../shared/users.json');
+const friendships = require('../../shared/friendships.json');
+const client = require("../config/elastic");
 
 async function init() {
     try {
         for (const index of ['users', 'friendships']) {
-            if (await client.indices.exists({ index })) {
+            if (await client.indices.exists({index})) {
                 console.log(`Index "${index}" exists. Deleting...`);
-                await client.indices.delete({ index });
+                await client.indices.delete({index});
             }
         }
 
@@ -17,9 +17,9 @@ async function init() {
             body: {
                 mappings: {
                     properties: {
-                        name: { type: 'text', fields: { keyword: { type: 'keyword' } } },
-                        age: { type: 'integer' },
-                        hobbies: { type: 'text', fields: { keyword: { type: 'keyword' } } },
+                        name: {type: 'text', fields: {keyword: {type: 'keyword'}}},
+                        age: {type: 'integer'},
+                        hobbies: {type: 'text', fields: {keyword: {type: 'keyword'}}},
                     },
                 },
             },
@@ -31,8 +31,8 @@ async function init() {
             body: {
                 mappings: {
                     properties: {
-                        user: { type: 'keyword' },
-                        friends: { type: 'keyword' },
+                        user: {type: 'keyword'},
+                        friends: {type: 'keyword'},
                     },
                 },
             },
@@ -54,8 +54,8 @@ async function init() {
             });
         }
 
-        await client.indices.refresh({ index: 'users' });
-        await client.indices.refresh({ index: 'friendships' });
+        await client.indices.refresh({index: 'users'});
+        await client.indices.refresh({index: 'friendships'});
 
         console.log('Initialization complete.');
     } catch (error) {
